@@ -110,3 +110,54 @@ html[lang="ar"] {
     scroll-behavior: auto !important;
   }
 }
+
+
+/* Spinning SVG rings: rotate around the SVG viewBox centre. */
+.svg-spin {
+  transform-box: view-box;
+  transform-origin: 50% 50%;
+}
+
+/* SMIL data pulses fill colour (this is what you wanted to change to white/purple). */
+.pulse-dot {
+  fill: var(--color-sun-300, #fcd34d);
+}
+
+/* CTA sheen — keyframes must live outside @theme to always emit. */
+.btn-sheen {
+  position: relative;
+  overflow: hidden;
+}
+.btn-sheen::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: linear-gradient(
+    100deg,
+    transparent 25%,
+    rgba(255, 255, 255, 0.55) 50%,
+    transparent 75%
+  );
+  transform: translateX(-150%) skewX(-18deg);
+  animation: sheen 5.5s ease-in-out infinite;
+}
+@keyframes sheen {
+  0%, 50%   { transform: translateX(-150%) skewX(-18deg); }
+  80%, 100% { transform: translateX(150%) skewX(-18deg); }
+}
+
+/* Reduced motion kill-switch. */
+@media (prefers-reduced-motion: reduce) {
+  .hero-motion,
+  .hero-motion *,
+  .hero-motion *::before,
+  .hero-motion *::after {
+    animation-duration: 0.01ms !important;
+    animation-delay: 0s !important;
+    animation-iteration-count: 1 !important;
+  }
+  .hero-motion .pulse-dot {
+    display: none !important;
+  }
+}

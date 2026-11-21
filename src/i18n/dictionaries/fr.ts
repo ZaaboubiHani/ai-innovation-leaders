@@ -5,7 +5,7 @@ export const fr: Dictionary = {
   meta: {
     title: "AI Innovation Leaders Program — Prolync en partenariat académique avec Altis",
     description:
-      "Un programme professionnel payant de diplôme et de certification de 8 semaines en IA appliquée, compétences comportementales et entrepreneuriat pour l'Éducation, la Médecine et l'Agriculture.",
+      "Un programme professionnel payant de diplôme et de certification de 8 semaines en IA appliquée, compétences comportementales et entrepreneuriat pour l'Éducation, la Médecine, l'Agriculture et la Médecine vétérinaire.",
   },
 
   brand: {
@@ -45,16 +45,16 @@ export const fr: Dictionary = {
     title: "AI Innovation Leaders Program",
     subtitle:
       "Huit semaines pour transformer l'IA appliquée, le leadership et l'entrepreneuriat en un projet réel, testé dans votre propre classe, clinique ou exploitation agricole.",
-    sectorsLine: "Pour l'Éducation • la Médecine • l'Agriculture",
+    sectorsLine: "Pour l'Éducation • la Médecine • l'Agriculture • la Médecine vétérinaire",
     primaryCta: "Postuler",
     secondaryCta: "Découvrir le programme",
     facts: [
       { value: "8", label: "semaines, formation mixte" },
-      { value: "3", label: "secteurs prioritaires" },
+      { value: "4", label: "secteurs prioritaires" },
       { value: "10", label: "participants maximum par parcours sectoriel" },
       { value: "3", label: "langues de travail" },
     ],
-    visualLabel: "L'IA appliquée au centre de trois secteurs : Éducation, Médecine et Agriculture",
+    visualLabel: "L'IA appliquée au centre de quatre secteurs : Éducation, Médecine, Agriculture et Médecine vétérinaire",
     core: "IA appliquée",
     cohortNote: "Cohorte pilote de 20 à 30 participants",
   },
@@ -64,7 +64,7 @@ export const fr: Dictionary = {
     title: "Un parcours diplômant construit autour d'un projet réellement utilisé",
     items: [
       { label: "Type de programme", value: "Programme professionnel payant de diplôme et de certification" },
-      { label: "Secteurs ciblés", value: "Éducation • Médecine (Santé) • Agriculture" },
+      { label: "Secteurs ciblés", value: "Éducation • Médecine (Santé) • Agriculture • Médecine vétérinaire" },
       {
         label: "Matières principales",
         value: "IA appliquée • Compétences comportementales • Entrepreneuriat, enseignés dans chaque parcours sectoriel",
@@ -139,6 +139,16 @@ export const fr: Dictionary = {
           "Étudiants en agriculture et agronomie (dernière année / master ou doctorat)",
         ],
       },
+      {
+        id: "veterinary",
+        name: "Médecine vétérinaire",
+        audience: [
+          "Vétérinaires et assistants vétérinaires",
+          "Personnel de santé animale",
+          "Gestionnaires d'élevages",
+          "Étudiants en médecine vétérinaire (dernière année / master ou doctorat)",
+        ],
+      }
     ],
   },
 
@@ -190,7 +200,7 @@ export const fr: Dictionary = {
       "Chaque semaine combine une session en direct en ligne, un atelier pratique ou un laboratoire, des lectures propres à votre secteur et l'avancement de votre projet d'IA individuel (ou d'équipe).",
     foundation: {
       title: "Un socle obligatoire, et non une option",
-      text: "Avant de commencer à construire, le programme consacre un temps d'étude structuré à la manière dont l'IA rejoint concrètement l'éducation, la médecine ou l'agriculture : les cas d'usage, les outils, les limites et les risques propres à ce domaine.",
+      text: "Avant de commencer à construire, le programme consacre un temps d'étude structuré à la manière dont l'IA rejoint concrètement l'éducation, la médecine, l'agriculture ou la médecine vétérinaire : les cas d'usage, les outils, les limites et les risques propres à ce domaine.",
     },
     tracks: {
       core: { name: "Core Diploma Track", range: "Semaines 1 à 6", text: "Salle de classe + prototype" },
@@ -216,7 +226,7 @@ export const fr: Dictionary = {
       {
         theme: "Comment l'IA rejoint votre domaine (socle obligatoire)",
         topics: [
-          "Étude approfondie de l'IA appliquée à votre parcours : enseignement et apprentissage (éducation) / soins cliniques et prise en charge des patients (médecine) / agriculture et systèmes agroalimentaires (agriculture)",
+          "Étude approfondie de l'IA appliquée à votre parcours : enseignement et apprentissage (éducation) / soins cliniques et prise en charge des patients (médecine) / agriculture et systèmes agroalimentaires (agriculture) / santé animale et gestion du bétail (médecine vétérinaire)",
           "Études de cas réelles d'IA déjà utilisée dans ce domaine, avec ce qui a fonctionné et ce qui a échoué",
           "Limites, risques et règles de protection des données propres au domaine (données de classe, de patients ou d'exploitation)",
           "Compétences d'animation et de conception de formations",
@@ -349,6 +359,16 @@ export const fr: Dictionary = {
           "Synthèse des registres de l'exploitation et des rapports de rendement",
         ],
       },
+      {
+        id: "veterinary",
+        name: "Médecine vétérinaire",
+        items: [
+          "Outil de synthèse des dossiers de santé animale assisté par l'IA",
+          "Système automatisé de triage et de recommandation de soins pour le bétail",
+          "Chatbot pour les questions vétérinaires courantes des agriculteurs",
+          "Outil de diagnostic assisté par l'IA pour les affections vétérinaires courantes",
+        ],
+      }
     ],
     opportunitiesTitle: "Les opportunités qui en découlent",
     opportunities: [
@@ -365,7 +385,7 @@ export const fr: Dictionary = {
     title: "À l'issue des 8 semaines, vous serez capable de",
     items: [
       "Expliquer les concepts fondamentaux de l'IA, ses capacités et ses limites, dans un langage simple et adapté à votre secteur.",
-      "Décrire, avec des exemples réels, comment l'IA est déjà appliquée en éducation, en médecine ou en agriculture, et juger où elle trouve réellement sa place dans votre domaine.",
+      "Décrire, avec des exemples réels, comment l'IA est déjà appliquée en éducation, en médecine, en agriculture ou en médecine vétérinaire, et juger où elle trouve réellement sa place dans votre domaine.",
       "Choisir et utiliser, de façon responsable et éthique, les outils d'IA adaptés à votre profession.",
       "Mobiliser vos compétences comportementales (travail d'équipe, communication, esprit critique) pour conduire un projet d'IA.",
       "Appliquer le design thinking et les méthodes agiles pour formuler des problèmes et concevoir des solutions.",
@@ -418,11 +438,11 @@ export const fr: Dictionary = {
     tracks: [
       {
         title: "Parcours professionnel",
-        text: "Au moins 2 ans d'expérience professionnelle et un emploi ou une pratique active actuelle en éducation, en médecine ou en agriculture.",
+        text: "Au moins 2 ans d'expérience professionnelle et un emploi ou une pratique active actuelle en éducation, en médecine, en agriculture ou en médecine vétérinaire.",
       },
       {
         title: "Parcours étudiant",
-        text: "Être actuellement inscrit (licence ou master/doctorat, de préférence en dernière année) dans une formation en éducation, en sciences médicales/de la santé ou en agriculture/agronomie, avec une attestation ou une preuve d'inscription.",
+        text: "Être actuellement inscrit (licence ou master/doctorat, de préférence en dernière année) dans une formation en éducation, en sciences médicales/de la santé, en agriculture/agronomie ou en médecine vétérinaire, avec une attestation ou une preuve d'inscription.",
       },
     ],
     commonTitle: "Pour les deux parcours",
@@ -544,7 +564,7 @@ export const fr: Dictionary = {
       },
       {
         title: "Mentors sectoriels",
-        text: "Des professionnels expérimentés de l'éducation, de la médecine et de l'agriculture, ainsi que des entrepreneurs chevronnés, qui évaluent la faisabilité des projets et offrent un accompagnement individuel.",
+        text: "Des professionnels expérimentés de l'éducation, de la médecine, de l'agriculture et de la médecine vétérinaire, ainsi que des entrepreneurs chevronnés, qui évaluent la faisabilité des projets et offrent un accompagnement individuel.",
       },
       {
         title: "Mentors en IA",
@@ -567,7 +587,7 @@ export const fr: Dictionary = {
       },
       {
         q: "Les étudiants peuvent-ils postuler ?",
-        a: "Oui. Les étudiants actuellement inscrits dans une formation en éducation, en sciences médicales/de la santé ou en agriculture/agronomie (de préférence en dernière année) peuvent postuler avec une preuve d'inscription et bénéficient du tarif étudiant.",
+        a: "Oui. Les étudiants actuellement inscrits dans une formation en éducation, en sciences médicales/de la santé, en agriculture/agronomie ou en médecine vétérinaire (de préférence en dernière année) peuvent postuler avec une preuve d'inscription et bénéficient du tarif étudiant.",
       },
       {
         q: "Quel est le montant des frais et puis-je payer en plusieurs fois ?",
@@ -689,7 +709,7 @@ export const fr: Dictionary = {
     options: {
       languages: { ar: "Arabe", fr: "Français", en: "Anglais" },
       tracks: { professional: "Professionnel en activité", student: "Étudiant" },
-      sectors: { education: "Éducation", medicine: "Médecine (Santé)", agriculture: "Agriculture" },
+      sectors: { education: "Éducation", medicine: "Médecine (Santé)", agriculture: "Agriculture", veterinary: "Médecine vétérinaire" },
       studyLevels: { undergraduate: "Licence", graduate: "Master / doctorat" },
       feeCategories: {
         standard: "Inscription standard",
@@ -756,7 +776,7 @@ export const fr: Dictionary = {
     contact: "Contact",
     rights: "Tous droits réservés.",
     partnerLine: "PROLYNC — En partenariat académique avec Altis",
-    sectors: "Éducation • Médecine • Agriculture",
+    sectors: "Éducation • Médecine • Agriculture • Médecine vétérinaire",
   },
 
   notFound: {

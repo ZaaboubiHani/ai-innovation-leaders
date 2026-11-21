@@ -70,6 +70,7 @@ const config: Config = {
         lift: "0 2px 4px rgba(23,16,58,.06), 0 18px 40px -16px rgba(60,20,140,.35)",
       },
       keyframes: {
+        // ─── existing (kept) ─────────────────────────────────────
         "fade-up": {
           "0%": { opacity: "0", transform: "translateY(14px)" },
           "100%": { opacity: "1", transform: "translateY(0)" },
@@ -82,11 +83,70 @@ const config: Config = {
           "0%,100%": { transform: "translateY(0)" },
           "50%": { transform: "translateY(-6px)" },
         },
+        "node-drift": {
+          "0%, 100%": { transform: "translate(-50%, 0) translateY(0)" },
+          "50%": { transform: "translate(-50%, 0) translateY(-6px)" },
+        },
+        "node-drift-h": {
+          "0%, 100%": { transform: "translate(-50%, 0) translate(0, 0)" },
+          "50%": { transform: "translate(-50%, 0) translate(3px, -4px)" },
+        },
+
+        // ─── new: diagram loops ──────────────────────────────────
+        "core-breathe": {
+          "0%, 100%": { scale: "1" },
+          "50%": { scale: "1.03" },
+        },
+        "halo-pulse": {
+          "0%, 100%": { opacity: "0.45" },
+          "50%": { opacity: "0.9" },
+        },
+        "ring-spin": {
+          to: { transform: "rotate(1turn)" },
+        },
+        "ring-spin-rev": {
+          to: { transform: "rotate(-1turn)" },
+        },
+        "flow-dash": {
+          // -12 = 4 dash periods of 1.5+1.5, so the loop is seamless
+          to: { strokeDashoffset: "-12" },
+        },
+
+        // ─── new: background loops ───────────────────────────────
+        "blob-drift": {
+          "0%, 100%": { transform: "translate(0, 0) scale(1)" },
+          "33%": { transform: "translate(36px, 28px) scale(1.08)" },
+          "66%": { transform: "translate(-24px, 44px) scale(0.96)" },
+        },
+        "blob-drift-alt": {
+          "0%, 100%": { transform: "translate(0, 0) scale(1)" },
+          "40%": { transform: "translate(-44px, -32px) scale(1.1)" },
+          "75%": { transform: "translate(28px, -16px) scale(0.94)" },
+        },
+        twinkle: {
+          "0%, 100%": { opacity: "0", scale: "0.6" },
+          "50%": { opacity: "0.9", scale: "1" },
+        },
       },
       animation: {
+        // ─── existing (kept) ─────────────────────────────────────
         "fade-up": "fade-up .7s cubic-bezier(.2,.7,.2,1) both",
         "ray-pulse": "ray-pulse 3.6s ease-in-out infinite",
         "orbit-drift": "orbit-drift 7s ease-in-out infinite",
+        "node-drift": "node-drift 6s ease-in-out infinite",
+        "node-drift-h": "node-drift-h 7.5s ease-in-out infinite",
+
+        // ─── new: diagram loops ──────────────────────────────────
+        "core-breathe": "core-breathe 6s ease-in-out infinite",
+        "halo-pulse": "halo-pulse 6s ease-in-out infinite",
+        "ring-spin": "ring-spin 36s linear infinite",
+        "ring-spin-rev": "ring-spin-rev 24s linear infinite",
+        "flow-dash": "flow-dash 4s linear infinite",
+
+        // ─── new: background loops ───────────────────────────────
+        "blob-drift": "blob-drift 22s ease-in-out infinite",
+        "blob-drift-alt": "blob-drift-alt 26s ease-in-out infinite",
+        twinkle: "twinkle 6s ease-in-out infinite",
       },
     },
   },
