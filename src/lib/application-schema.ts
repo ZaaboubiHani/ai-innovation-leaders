@@ -7,7 +7,7 @@ import { z } from "zod";
  * UI re-translate errors instantly when the visitor switches language.
  */
 
-export const SECTORS = ["education", "medicine", "agriculture"] as const;
+export const SECTORS = ["education", "medicine", "agriculture", "veterinary"] as const;
 export const TRACKS = ["professional", "student"] as const;
 export const HEARD_FROM = ["social", "colleague", "institution", "event", "search", "other"] as const;
 

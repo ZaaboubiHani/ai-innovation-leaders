@@ -5,9 +5,10 @@
  */
 export const en = {
   meta: {
-    title: "AI Innovation Leaders Program — Prolync in academic partnership with Altis",
+    title:
+      "AI Innovation Leaders Program — Prolync in academic partnership with Altis",
     description:
-      "An 8-week paid professional diploma and certification program in applied AI, soft skills and entrepreneurship for Education, Medicine and Agriculture.",
+      "An 8-week paid professional diploma and certification program in applied AI, soft skills and entrepreneurship for Education, Medicine, Agriculture and Veterinary professionals.",
   },
 
   brand: {
@@ -47,16 +48,17 @@ export const en = {
     title: "AI Innovation Leaders Program",
     subtitle:
       "Eight weeks to turn applied AI, leadership and entrepreneurship into a real, tested project in your own classroom, clinic or farm.",
-    sectorsLine: "For Education • Medicine • Agriculture",
+    sectorsLine: "For Education • Medicine • Agriculture • Veterinary",
     primaryCta: "Apply now",
     secondaryCta: "Explore the curriculum",
     facts: [
       { value: "8", label: "weeks, blended learning" },
-      { value: "3", label: "focus sectors" },
+      { value: "4", label: "focus sectors" },
       { value: "10", label: "participants max per sector track" },
       { value: "3", label: "working languages" },
     ],
-    visualLabel: "Applied AI at the centre of three sectors: Education, Medicine and Agriculture",
+    visualLabel:
+      "Applied AI at the centre of four sectors: Education, Medicine, Agriculture and Veterinary",
     core: "Applied AI",
     cohortNote: "Pilot cohort of 20–30 participants",
   },
@@ -65,22 +67,36 @@ export const en = {
     eyebrow: "Program snapshot",
     title: "A diploma track built around a project that is actually used",
     items: [
-      { label: "Program type", value: "Paid Professional Diploma & Certification Program" },
-      { label: "Target sectors", value: "Education • Medicine (Healthcare) • Agriculture" },
+      {
+        label: "Program type",
+        value: "Paid Professional Diploma & Certification Program",
+      },
+      {
+        label: "Target sectors",
+        value: "Education • Medicine (Healthcare) • Agriculture • Veterinary",
+      },
       {
         label: "Core subjects",
-        value: "Applied AI • Soft Skills • Entrepreneurship, taught within every sector track",
+        value:
+          "Applied AI • Soft Skills • Entrepreneurship, taught within every sector track",
       },
       { label: "Duration", value: "8 weeks (blended learning)" },
-      { label: "Cohort size", value: "20–30 participants (pilot), max 10 per sector track" },
-      { label: "Credential", value: "AI Innovation Leader Diploma + 4-tier certification" },
+      {
+        label: "Cohort size",
+        value: "20–30 participants (pilot), max 10 per sector track",
+      },
+      {
+        label: "Credential",
+        value: "AI Innovation Leader Diploma + 4-tier certification",
+      },
       { label: "Language", value: "Arabic / French / English (blended)" },
     ],
   },
 
   why: {
     eyebrow: "Why this program",
-    title: "AI is reshaping classrooms, clinics and farms. Most professionals have no practical way in.",
+    title:
+      "AI is reshaping classrooms, clinics and farms. Most professionals have no practical way in.",
     intro:
       "Generic AI courses are either too technical for non-developers or too shallow to produce anything usable. This program closes the gap by combining three elements rarely offered together.",
     items: [
@@ -140,6 +156,16 @@ export const en = {
           "Agriculture & agronomy students (final year / graduate)",
         ],
       },
+      {
+        id: "veterinary",
+        name: "Veterinary",
+        audience: [
+          "Veterinarians & veterinary technicians",
+          "Animal health officers",
+          "Livestock farm managers",
+          "Veterinary students (final year / graduate)",
+        ],
+      },
     ],
   },
 
@@ -152,12 +178,22 @@ export const en = {
       {
         number: "Pillar 1",
         title: "Applied Artificial Intelligence",
-        points: ["AI fundamentals & ethics", "Prompt engineering", "Sector-specific AI tools", "No-code AI prototyping"],
+        points: [
+          "AI fundamentals & ethics",
+          "Prompt engineering",
+          "Sector-specific AI tools",
+          "No-code AI prototyping",
+        ],
       },
       {
         number: "Pillar 2",
         title: "Project & Innovation Method",
-        points: ["Design thinking", "Problem framing", "Agile project planning", "Monitoring & evaluation basics"],
+        points: [
+          "Design thinking",
+          "Problem framing",
+          "Agile project planning",
+          "Monitoring & evaluation basics",
+        ],
       },
       {
         number: "Pillar 3",
@@ -181,10 +217,14 @@ export const en = {
       "Each week combines a live online session, a hands-on workshop or lab, sector-specific readings, and progress on your individual (or team) AI project.",
     foundation: {
       title: "A required foundation, not an optional add-on",
-      text: "Before anyone starts building, the program dedicates structured study time to how AI actually intersects with education, medicine or agriculture: the specific use cases, tools, limitations and risks in that field.",
+      text: "Before anyone starts building, the program dedicates structured study time to how AI actually intersects with education, medicine, agriculture or veterinary: the specific use cases, tools, limitations and risks in that field.",
     },
     tracks: {
-      core: { name: "Core Diploma Track", range: "Weeks 1–6", text: "Classroom + prototype" },
+      core: {
+        name: "Core Diploma Track",
+        range: "Weeks 1–6",
+        text: "Classroom + prototype",
+      },
       applied: {
         name: "Applied Practice Track",
         range: "Weeks 7–8",
@@ -207,7 +247,7 @@ export const en = {
       {
         theme: "How AI Mixes With Your Field (Required Foundation)",
         topics: [
-          "Deep-dive study of AI applied to your track: teaching & learning (education) / clinical & patient care (medicine) / farming & agri-food systems (agriculture)",
+          "Deep-dive study of AI applied to your track: teaching & learning (education) / clinical & patient care (medicine) / farming & agri-food systems (agriculture) / animal health & livestock management (veterinary)",
           "Real case studies of AI already used in that field, including what worked and what failed",
           "Field-specific limitations, risks and data privacy rules (classroom, patient or farm data)",
           "Facilitation & training design skills",
@@ -340,6 +380,16 @@ export const en = {
           "Farm record keeping and yield report summarizer",
         ],
       },
+      {
+        id: "veterinary",
+        name: "Veterinary",
+        items: [
+          "AI-assisted animal health record summarization tool",
+          "Automated triage and care recommendation system for livestock",
+          "Chatbot for routine veterinary inquiries from farmers",
+          "AI-supported diagnostic tool for common veterinary conditions",
+        ],
+      },
     ],
     opportunitiesTitle: "Opportunities this creates",
     opportunities: [
@@ -356,7 +406,7 @@ export const en = {
     title: "By the end of the 8 weeks, you will be able to",
     items: [
       "Explain core AI concepts, capabilities and limits in plain, sector-relevant language.",
-      "Describe, with real examples, how AI is already being applied in education, medicine or agriculture, and judge where it genuinely fits your own field.",
+      "Describe, with real examples, how AI is already being applied in education, medicine, agriculture or veterinary, and judge where it genuinely fits your own field.",
       "Select and use AI tools appropriate to your profession, responsibly and ethically.",
       "Use soft skills — teamwork, communication and critical thinking — to lead an AI project.",
       "Apply design thinking and agile methods to frame problems and design solutions.",
@@ -387,8 +437,10 @@ export const en = {
       },
       {
         name: "AI Innovation Leader Diploma",
-        requirement: "Full 8-week completion + prototype + real-world pilot (Weeks 7–8) + Showcase presentation",
-        signal: "The program's flagship credential: practical, sector-specific AI leadership",
+        requirement:
+          "Full 8-week completion + prototype + real-world pilot (Weeks 7–8) + Showcase presentation",
+        signal:
+          "The program's flagship credential: practical, sector-specific AI leadership",
         flagship: true,
       },
       {
@@ -397,7 +449,8 @@ export const en = {
         signal: "Distinction for the strongest projects in each sector",
       },
     ],
-    verifiable: "Diploma and certificates are digitally verifiable and shareable.",
+    verifiable:
+      "Diploma and certificates are digitally verifiable and shareable.",
   },
 
   eligibility: {
@@ -408,7 +461,7 @@ export const en = {
     tracks: [
       {
         title: "Professional track",
-        text: "At least 2 years of professional experience and current employment or active practice in education, medicine or agriculture.",
+        text: "At least 2 years of professional experience and current employment or active practice in education, medicine, agriculture or veterinary.",
       },
       {
         title: "Student track",
@@ -425,10 +478,15 @@ export const en = {
 
   tuition: {
     eyebrow: "Tuition & investment",
-    title: "Tuition funds small cohorts, expert mentoring and a credential worth earning",
+    title:
+      "Tuition funds small cohorts, expert mentoring and a credential worth earning",
     intro:
       "Tuition funds expert instruction, mentoring, AI tool access and certification, and keeps cohorts small enough for real attention to each participant's project.",
-    headers: { option: "Tuition option", fee: "Indicative fee", notes: "Notes" },
+    headers: {
+      option: "Tuition option",
+      fee: "Indicative fee",
+      notes: "Notes",
+    },
     rows: [
       {
         option: "Standard enrollment",
@@ -436,7 +494,11 @@ export const en = {
         notes: "Full 8-week program, all sessions and materials",
         amount: true,
       },
-      { option: "Early bird (6+ weeks before start)", fee: "~15% discount", notes: "Applies to the standard fee" },
+      {
+        option: "Early bird (6+ weeks before start)",
+        fee: "~15% discount",
+        notes: "Applies to the standard fee",
+      },
       {
         option: "Group / institutional (3+ from one organization)",
         fee: "~20% discount per seat",
@@ -452,7 +514,11 @@ export const en = {
         fee: "~30–40% discount",
         notes: "Applies to the standard fee; limited seats per cohort",
       },
-      { option: "Payment plan", fee: "2–3 installments", notes: "Available on request, no interest" },
+      {
+        option: "Payment plan",
+        fee: "2–3 installments",
+        notes: "Available on request, no interest",
+      },
     ],
     indicative:
       "Figures are indicative for the pilot cohort and will be confirmed before enrollment opens.",
@@ -479,7 +545,10 @@ export const en = {
         title: "Application review",
         text: "Reviewed by the selection committee (Prolync + Altis).",
       },
-      { title: "Virtual interview", text: "A short virtual interview for shortlisted candidates." },
+      {
+        title: "Virtual interview",
+        text: "A short virtual interview for shortlisted candidates.",
+      },
       {
         title: "Offer of a seat",
         text: "With the tuition invoice and payment plan options.",
@@ -530,7 +599,7 @@ export const en = {
       },
       {
         title: "Sector Mentors",
-        text: "Senior education, medicine and agriculture professionals, together with experienced entrepreneurs, who review project feasibility and give one-on-one guidance.",
+        text: "Senior education, medicine, agriculture and veterinary professionals, together with experienced entrepreneurs, who review project feasibility and give one-on-one guidance.",
       },
       {
         title: "AI Mentors",
@@ -588,7 +657,8 @@ export const en = {
     },
     admissions: {
       title: "Admissions & Tuition",
-      intro: "Who can apply, how selection works, and what the investment covers.",
+      intro:
+        "Who can apply, how selection works, and what the investment covers.",
     },
     apply: {
       title: "Apply to the program",
@@ -600,11 +670,13 @@ export const en = {
         "Shortlisted candidates are invited to a short virtual interview.",
         "Selected candidates receive an offer with the tuition invoice and payment plan options.",
       ],
-      studentNote: "Student applicants will be asked for a letter or proof of enrollment at the interview stage.",
+      studentNote:
+        "Student applicants will be asked for a letter or proof of enrollment at the interview stage.",
     },
     privacy: {
       title: "Privacy notice",
-      intro: "How we handle the information you submit through the application form.",
+      intro:
+        "How we handle the information you submit through the application form.",
       sections: [
         {
           title: "What we collect",
@@ -624,7 +696,8 @@ export const en = {
         },
       ],
       contactLead: "Contact the organizers at",
-      draftNote: "Have this notice reviewed against your local data-protection obligations before launch.",
+      draftNote:
+        "Have this notice reviewed against your local data-protection obligations before launch.",
     },
   },
 
@@ -654,7 +727,8 @@ export const en = {
       digitalLiteracy:
         "I am comfortable with email, web browsers and common productivity tools (basic digital literacy).",
       motivation: "Why do you want to join this program?",
-      sectorProblem: "Which real problem in your workplace or field could AI help with?",
+      sectorProblem:
+        "Which real problem in your workplace or field could AI help with?",
       feeCategory: "Tuition category you are applying under",
       paymentPlan: "I would like to pay in 2–3 installments (no interest).",
       heardFrom: "How did you hear about the program? (optional)",
@@ -662,8 +736,10 @@ export const en = {
         "I confirm the information is accurate and I agree to it being processed for the admissions process, as described in the privacy notice.",
     },
     hints: {
-      motivation: "A few sentences: your goals and what you hope to achieve. Minimum 80 characters.",
-      sectorProblem: "Describe a genuine challenge you see day to day. Minimum 40 characters.",
+      motivation:
+        "A few sentences: your goals and what you hope to achieve. Minimum 80 characters.",
+      sectorProblem:
+        "Describe a genuine challenge you see day to day. Minimum 40 characters.",
       phone: "For example 05 55 00 00 00",
       yearsExperience: "At least 2 years for the professional track",
       workingLanguages: "Select at least one",
@@ -673,7 +749,12 @@ export const en = {
     options: {
       languages: { ar: "Arabic", fr: "French", en: "English" },
       tracks: { professional: "Working professional", student: "Student" },
-      sectors: { education: "Education", medicine: "Medicine (Healthcare)", agriculture: "Agriculture" },
+      sectors: {
+        education: "Education",
+        medicine: "Medicine (Healthcare)",
+        agriculture: "Agriculture",
+        veterinary: "Veterinary",
+      },
       studyLevels: { undergraduate: "Undergraduate", graduate: "Graduate" },
       feeCategories: {
         standard: "Standard enrollment",
@@ -703,9 +784,12 @@ export const en = {
     },
     errors: {
       generic: "Something went wrong. Please try again in a moment.",
-      duplicate: "An application with this email address has already been submitted.",
-      rateLimited: "Too many attempts. Please wait a while before trying again.",
-      unavailable: "The application service is temporarily unavailable. Please try again later.",
+      duplicate:
+        "An application with this email address has already been submitted.",
+      rateLimited:
+        "Too many attempts. Please wait a while before trying again.",
+      unavailable:
+        "The application service is temporarily unavailable. Please try again later.",
       fixFields: "Please correct the highlighted fields.",
     },
   },
@@ -719,19 +803,23 @@ export const en = {
     phone: "Please enter a valid phone number.",
     languagesRequired: "Select at least one language.",
     invalidNumber: "Please enter a valid number.",
-    minExperience: "The professional track requires at least 2 years of experience.",
+    minExperience:
+      "The professional track requires at least 2 years of experience.",
     digitalRequired: "Basic digital literacy is required to join.",
     motivationShort: "Please write at least 80 characters.",
     problemShort: "Please write at least 40 characters.",
     studentRateOnly: "The student rate is only available to the student track.",
-    groupNeedsOrganization: "Please enter your organization for a group application.",
-    groupProfessionalOnly: "The group rate is for professionals applying through an organization.",
+    groupNeedsOrganization:
+      "Please enter your organization for a group application.",
+    groupProfessionalOnly:
+      "The group rate is for professionals applying through an organization.",
     consentRequired: "You must agree to continue.",
     invalid: "This value is not valid.",
   },
 
   footer: {
-    tagline: "A paid professional diploma and certification program in applied AI, soft skills and entrepreneurship.",
+    tagline:
+      "A paid professional diploma and certification program in applied AI, soft skills and entrepreneurship.",
     explore: "Explore",
     program: "Program",
     legal: "Legal",
@@ -739,7 +827,7 @@ export const en = {
     contact: "Contact",
     rights: "All rights reserved.",
     partnerLine: "PROLYNC — In Academic Partnership with Altis",
-    sectors: "Education • Medicine • Agriculture",
+    sectors: "Education • Medicine • Agriculture • Veterinary",
   },
 
   notFound: {
